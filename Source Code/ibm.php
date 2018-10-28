@@ -23,6 +23,6 @@ echo '<pre>'.$resp->getBody().'</pre>';
 
   // Convert JSON string to Object
   $someObject = json_decode($someJSON);
-  print_r($someObject);      // Dump all data of the Object
+  print_r($someObject);      // Dump all data of the Object o
   echo $someObject[0]->transcript;
 ?>
